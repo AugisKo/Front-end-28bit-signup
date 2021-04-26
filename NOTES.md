@@ -4,9 +4,10 @@
     - index.html
     - .gitignore (.vscode; .DS_Store)
     - main.css (bet ne butinai vienintelis)    
-- [ ] paviesinti projekta per GitHub Pages (gausim URL)
+- [x] paviesinti projekta per GitHub Pages (gausim URL)
     https://augisko.github.io/Front-end-28bit-signup
-- [ ] README.md
+- [x] README.md
+    - skirta aprasyti kas, ka ir kodel daro 
     - iterpti nuoroda i daroma dizaina
     - iterpti nuoroda, kur tas musu kodas gali buti pamatytas
 - [ ] atlikti dizaino struktura
