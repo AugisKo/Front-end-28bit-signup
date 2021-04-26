@@ -1,0 +1,11 @@
+body {
+background-image: url('../img/fonas.jpg');
+background-position: top;
+background-repeat: no-repeat;
+background-size: cover;
+}
+.blur{
+background: rgba(255, 255, 255, 0.1);
+backdrop-filter: blur(10px);
+height: 100%;
+}
