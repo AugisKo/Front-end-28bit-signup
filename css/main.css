@@ -16,16 +16,15 @@ backdrop-filter: blur(10px);
 }
 .container {
   display: inline-block;
-  margin-top: 100px;
   width: 800px;
-  margin-left: calc((100% - 800px) / 2);
+  margin: 100px calc((100% - 800px) / 2) 0;
 }
 
 .left-column {
   width:40%;
   padding: 40px;
   float:left;
-  background-image: url(../img/fonas.jpg);
+  border:white solid 1px;
   color: #fff;
 }
 
@@ -89,19 +88,35 @@ input {
   font-size: 19px;
   line-height: 35px;
   border: none;
+  outline: none;
   border-bottom: 1px solid grey;
   color: grey;
   font-weight: lighter;
 }
 
 button {
-
+float: left;
+color: white;
+padding: 10px 30px;
+line-height: 20px;
+font-size: 19px;
+border-radius: 21px;
+border: 1px solid #0045a7;
+background-color: #015cda;
 }
-.form-row > span {
 
+.form-row > span {
+  float: left;
+  line-height: 20px;
+  padding: 11px;
 }
 
 .form-row > a {
+  float: left;
+  text-decoration: none;
   
+  line-height: 20px;
+  padding: 11px;
+  color: #015cda;
 }
 
