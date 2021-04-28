@@ -8,6 +8,7 @@ body * {
 }
 
 body {
+background-color: skyblue;
 background-image: url('../img/fonas.jpg');
 background-position: top;
 background-repeat: no-repeat;
@@ -22,10 +23,16 @@ backdrop-filter: blur(10px);
 
 .left-column {
   width:40%;
-  padding: 40px;
   float:left;
+  padding: 40px;
   border:white solid 1px;
   color: #fff;
+  background-color: #4c46a5;
+  background-image: url(../img/fonas.jpg);
+  background-repeat: no-repeat; /* naudojant 'no-repeat background-size: cover" nereikalingas */
+  background-position: top center;
+  background-size: cover;
+  
 }
 
 .main-title {
@@ -33,7 +40,6 @@ backdrop-filter: blur(10px);
 }
 
 .bottom-links {
-
 }
 
 .bottom-links > a {
