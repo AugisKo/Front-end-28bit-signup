@@ -8,17 +8,24 @@ body * {
 }
 
 body {
-background-color: skyblue;
-background-image: url('../img/fonas.jpg');
-background-position: top;
-background-repeat: no-repeat;
-background-size: cover;
-backdrop-filter: blur(10px);
 }
+
+.background {
+  height: 100vh;
+  background-image: url('../img/fonas.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: blur(20px);
+}
+
 .container {
   display: inline-block;
   width: 800px;
-  margin: 100px calc((100% - 800px) / 2) 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .left-column {
@@ -29,8 +36,11 @@ backdrop-filter: blur(10px);
   background-color: #4c46a5;
   background-image: url(../img/fonas.jpg);
   background-repeat: no-repeat; /* naudojant 'no-repeat background-size: cover" nereikalingas */
-  background-position: top center;
+  background-position: bottom center;
   background-size: cover;
+  position: absolute;
+  top: 30px;
+  bottom: 30px;
   
 }
 
@@ -39,6 +49,10 @@ backdrop-filter: blur(10px);
 }
 
 .bottom-links {
+  position:absolute;
+  bottom: 20px;
+  left: 40px;
+  right:40px;
 }
 
 .bottom-links > a {
@@ -50,9 +64,9 @@ color: white;
 }
 
 .right-column {
+  float: right;
   width: 60%;
   padding: 60px;
-  float: left;
   background-color: white;
   position: relative;
 }

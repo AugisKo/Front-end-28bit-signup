@@ -22,3 +22,14 @@
     - sign in
     - forgot password
 - [ ] css turi buti tik vienas failas, kur stiliaus taisykles veikia vienodai (identiskai) per visus puslapius    
+
+
+#Pozicionavimas
+
+1. Vaikui duodame position: absolute;
+2. Artimiausiam logiskam teviniam elementui, kuri norime tureti kaip atskaitos taskas, suteikiame: 
+    a) position: relative; jeigu tas elementas neturi jokiu position savybiu
+    b) paliekame tokia position savybe kokia tas elementas turi, jei nurodytas;  
+
+    Isvada:
+    Ansol;iuciai pozicionuojamas elementas bus pastatytas artimiau
