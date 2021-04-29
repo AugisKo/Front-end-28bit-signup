@@ -34,7 +34,7 @@
     font-weight: lighter;
   }
   ::placeholder{
-      color: grey;
+      color: lightgrey;
       font-style: italic;
   }
   
