@@ -85,6 +85,7 @@ color: white;
   color: rgb(187, 182, 182);
 }
 
+
 .form-row > span {
   float: left;
   line-height: 20px;
@@ -100,3 +101,6 @@ color: white;
   color: #015cda;
 }
 
+.form-row > a:hover {
+  
+}

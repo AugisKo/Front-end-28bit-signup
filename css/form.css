@@ -28,11 +28,19 @@
     font-size: 19px;
     line-height: 35px;
     border: none;
-    outline: none;
     border-bottom: 1px solid grey;
     color: grey;
     font-weight: lighter;
   }
+  input:focus-visible {
+      outline-color:red
+  } 
+  
+  input:focus {
+      background-color: yellow ;
+      font-color:white;
+  }
+
   ::placeholder{
       color: lightgrey;
       font-style: italic;
@@ -47,4 +55,9 @@
   border-radius: 21px;
   border: 1px solid #0045a7;
   background-color: #015cda;
+  }
+
+  button:hover {
+      background-color: blueviolet;
+      cursor:pointer;
   }
